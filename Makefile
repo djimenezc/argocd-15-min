@@ -1,2 +1,5 @@
 install-apps:
-	kubectl apply -f apps.yml
+	kubectl apply -f apps.yaml
+
+uninstall-apps:
+	kubectl delete -f apps.yaml
