@@ -8,10 +8,10 @@ metadata:
 spec:
   project: production
   source:
-    repoURL: https://github.com/vfarcic/argocd-production.git
+    repoURL: https://github.com/Ramnikov/devops-toolkit.git
     targetRevision: HEAD
     path: helm
-    helm:
+    helm: |
         values:
           image:
             tag: latest

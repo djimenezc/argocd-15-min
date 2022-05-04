@@ -8,10 +8,10 @@ metadata:
 spec:
   project: production
   source:
-    repoURL: https://github.com/vfarcic/devops-paradox.git
+    repoURL: https://github.com/Ramnikov/devops-paradox.git
     targetRevision: HEAD
     path: helm
-    helm:
+    helm: |
         values:
           image:
             tag: latest
